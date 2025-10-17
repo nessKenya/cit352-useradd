@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Author: Nelson Muchonji Bifwoli
+
 # Check if running as root
 if [[ $EUID -ne 0 ]]; then
   echo "ERROR: This script must be run as root."
